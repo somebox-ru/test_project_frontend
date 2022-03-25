@@ -39,3 +39,16 @@
 - тесты
 - просмотр кода
 
+## Содержание задания
+Необходимо сформировать страницу редактирования карточки товара. 
+
+Для этого через POST запрос к http://api-dev.shop-delivery.ru/int_api/ozon/v3/category/attribute с параметрами:
+```
+{
+  "attribute_type": "ALL",
+  "category_id": [
+  17034410
+  ],
+  "language": "DEFAULT"
+}
+```
